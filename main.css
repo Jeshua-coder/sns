@@ -1,0 +1,44 @@
+
+
+body {
+    /* margin: 0px; */
+    /* font-weight: 800; */
+    font-family: 'Roboto', '이쁜폰트', 'Calibri', 'Arial';
+    
+}
+.white-box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px 1px #eee
+}
+.sky-bg{
+    background-color:  #6fbaf8;
+}
+.sky-color{
+    color: #6fbaf8;
+}
+.sns-bg{
+    background-color: #f7f9fc ;
+    padding: 1px;
+}
+.vr-height{
+    height: 200px;
+}
+progress{
+    appearance: none;
+}
+
+progress::-webkit-progress-value{
+    appearance: none;
+    color: pink;
+    height: 10px;
+    padding: 10px;
+}   
+progress::-webkit-progress-bar{
+    appearance: none;
+    
+    height: 20px;
+    padding: 20px;
+    background-color: red;
+}   
